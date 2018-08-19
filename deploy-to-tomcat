@@ -1,7 +1,7 @@
 node{
 
    stage('SCM Checkout'){
-     git 'https://github.com/anegondi123/manuapp'
+     git 'https://github.com/anegondi123/anu-app'
    }
    stage('Compile-Package'){
       // Get maven home path
